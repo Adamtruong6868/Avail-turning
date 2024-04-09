@@ -32,3 +32,22 @@ rustup update nightly
 ```php
 rustup target add wasm32-unknown-unknown --toolchain nightly
 ```
+**Step 8: Access Avail folder**
+```php
+mkdir avail
+cd avail
+```
+**Step 9: Download binaries**
+```php
+wget https://github.com/availproject/avail/releases/download/v2.0.0.0-rc4/x86_64-ubuntu-2204-avail-node.tar.gz
+```
+**Step 10: Extract**
+```php
+tar -xf x86_64-ubuntu-2204-avail-node.tar.gz
+```
+**Step 11: run node**
+```php
+./avail-node --chain turing --name "Yourname_VNBnode" --validator -d ./node-data
+```
+CTRL + C to escape
+
