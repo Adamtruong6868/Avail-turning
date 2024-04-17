@@ -90,7 +90,7 @@ sudo systemctl status availd.service
 journalctl -f -u availd
 ```
 
-**Upgrade**
+# Upgrade
 ```php
 cd $Home
 cd avail
